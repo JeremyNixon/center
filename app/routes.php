@@ -11,16 +11,15 @@
 |
 */
 
+Route::get('/', function(){
+	return View::make('landing');
+});
+
 
 Route::get('/lorem-ipsum', function(){
 	return View::make('lorem-ipsum');
 });
 
-
-Route::get('/hello', function()
-{
-	return View::make('hello');
-});
 
 Route::get('/lorem-ipsum/{num}', function($num)
 {
