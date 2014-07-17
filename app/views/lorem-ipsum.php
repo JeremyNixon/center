@@ -6,9 +6,11 @@ date_default_timezone_set ('america/new_york');
 
 <html>
 <head>
-	<title>Main</title>
+	<title>Lorem Ipsum</title>
 </head>
 <body>
+
+	<h2>Here are <?php echo $num; ?> lorem-ipsum paragraphs!</h2><br>
 
 	<?php
 
