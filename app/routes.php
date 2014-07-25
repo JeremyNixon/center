@@ -19,6 +19,22 @@ Route::get('/inquiry-on-human-understanding', function(){
 	return View::make('inquiry-on-human-understanding');
 });
 
+Route::get('/the-rules', function(){
+	return View::make('the-rules');
+});
+
+Route::get('/your-lifestyle-has-already-been-designed', function(){
+	return View::make('your-lifestyle-has-already-been-designed');
+});
+
+Route::get('/lean-in', function(){
+	return View::make('lean-in');
+});
+
+Route::get('/what-every-body-is-saying', function(){
+	return View::make('what-every-body-is-saying');
+});
+
 Route::get('/project-three', function(){
 	return View::make('landing');
 });
