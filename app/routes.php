@@ -11,7 +11,15 @@
 |
 */
 
-Route::get('', function(){
+Route::get('/book-thoughts', function(){
+	return View::make('book-thoughts');
+});
+
+Route::get('/inquiry-on-human-understanding', function(){
+	return View::make('inquiry-on-human-understanding');
+});
+
+Route::get('/project-three', function(){
 	return View::make('landing');
 });
 
