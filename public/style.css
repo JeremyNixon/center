@@ -1,5 +1,32 @@
-	body {
-		width: 50%;
-		margin: auto;
-		margin-top: 20px;
-	}
+body {
+
+}
+
+#container{
+	margin: auto;
+	margin-top: 70px;
+	width: 50%
+}
+
+#header {
+    height: 50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+}
+
+#navlist li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+ul li {
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+}
