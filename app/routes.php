@@ -11,10 +11,33 @@
 |
 */
 
-Route::get('bootstrap', function(){
-	return View::make('bootstrap');
+Route::get('bcs', function(){
+	return View::make('bcs');
 });
 
+Route::get('user-form', function(){
+    return View::make('user-form');
+});
+
+Route::post('/user-generate', function(){
+    ?>
+    <style>
+    body{
+        text-align: center;
+        font-family: georgia;
+    }
+    </style>
+    <?php $data = Input::all();
+    $num = $data['num'];?>
+<h2>Here are <?php echo $num; ?> users!</h2>
+<a href="/user-form">Generate a Different Number of Users</a><br><br>
+<?php
+
+$faker = Faker\Factory::create();
+
+for ($i=0; $i < $num; $i++) {
+  echo $faker->name, "<br>";
+}});
 
 # Behavioral Econ *********************************************************
 
@@ -189,9 +212,7 @@ Route::get('/lorem-ipsum/{num}', function($num)
     return View::make('lorem-ipsum', $data);
 });
 
-Route::get('/user-generate', function(){
-	return View::make('user-generate');
-});
+
 
 Route::get('/user-generate/{num}', function($num)
 {
