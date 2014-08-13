@@ -1,0 +1,87 @@
+body{
+	margin-top: 250px;
+	padding: 0;
+	margin-left: 0;
+}
+#header{
+	vertical-align: bottom;
+	background-color: #444;
+	color: #eee;
+	height: 200px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	font-size: 18px;
+	border-bottom: 1px solid #242527;
+	
+}
+#main-title{
+	font-size: 30px;
+
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.right-column {
+  width: 400px;
+  float: right;
+  padding-left: 10px;
+  border-left: 1px solid #111;
+}
+.left-column {
+	float: left;
+	margin-left: 50px;
+	width: 60%;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#navlist li{
+	display: inline;
+	padding-right: 30px;
+}
+#issue-title{
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 1px solid #111;
+
+}
+#issue-content{
+
+}
+#issue-text{
+	size: 20px;
+}
+#choose{
+	text-align: center;
+	font-size: 20px;
+	color: #440000;
+}
+a:link {
+	color: #eee;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #bbb;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #eee;
+    text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+    color: #eee	;
+    text-decoration: none;
+
+}   

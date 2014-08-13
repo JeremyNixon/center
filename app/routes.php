@@ -11,6 +11,8 @@
 |
 */
 
+
+
 Route::get('bcs', function(){
 	return View::make('bcs');
 });
@@ -38,6 +40,38 @@ $faker = Faker\Factory::create();
 for ($i=0; $i < $num; $i++) {
   echo $faker->name, "<br>";
 }});
+
+# The Hammer **************************************************************
+
+Route::get('/hammer', function(){
+    return View::make('/hammer/home');
+});
+
+Route::get('hammer-example', function(){
+    return View::make('hammer/thehammer');
+});
+
+Route::get('/hammer/issues', function(){
+    return View::make('/hammer/issues');
+});
+
+Route::get('/hammer/create-essay', function() {
+    return View::make('/hammer/create-essay');
+});
+
+Route::post('/hammer/create-essay', 'EssayController@postCreate');
+
+Route::get('/hammer/essay/{id}', 'EssayController@postRead');
+
+Route::get('/hammer/create-issue', function() {
+    return View::make('/hammer/create-issue');
+});
+
+Route::post('/hammer/create-issue', 'IssueController@postCreate');
+
+Route::get('/hammer/issue/{id}', 'IssueController@postRead');
+
+
 
 # Behavioral Econ *********************************************************
 
