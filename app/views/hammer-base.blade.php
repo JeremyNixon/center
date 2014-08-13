@@ -20,7 +20,7 @@ date_default_timezone_set ('america/new_york');
 		<ul id="navlist">
 			<li><a href="/hammer/">Home</a><li>
 			<li><a href="/hammer/issues">Issues</a><li>
-			<li><a href="/hammer/authors">Authors</a><li>
+			<li><a href="/hammer/contact">Contact</a><li>
 			<li><a href="/hammer/create-issue">Contribute</a><li>
 		</ul>
 	</div>

@@ -61,14 +61,14 @@ body{
 	color: #440000;
 }
 a:link {
-	color: #eee;
-    text-decoration: none;
+	color: #000;
+    text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    color: #bbb;
-    text-decoration: none;
+    color: #101010;
+    text-decoration: underline;
 
 }
 
@@ -81,7 +81,13 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #eee	;
+    color: #bbb	;
     text-decoration: none;
 
 }   
+#contact{
+	font-family: arial;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}

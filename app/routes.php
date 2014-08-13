@@ -71,7 +71,9 @@ Route::post('/hammer/create-issue', 'IssueController@postCreate');
 
 Route::get('/hammer/issue/{id}', 'IssueController@postRead');
 
-
+Route::get('/hammer/contact', function() {
+    return View::make('/hammer/contact');
+});
 
     # Behavioral Econ *********************************************************
 
