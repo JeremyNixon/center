@@ -10,7 +10,7 @@
 	    $essay->fill(Input::all());
 	    $essay->save();
 
-	    return View::make('hammer/essay')->with('id', $id);
+	    return View::make('hammer');
 
 	}
 
