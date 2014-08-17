@@ -22,7 +22,7 @@
 		</div>
 		<br>
 
-		{{ Form::submit('Add') }}
+		{{ Form::submit('Submit') }}
 
 	{{ Form::close() }}
 

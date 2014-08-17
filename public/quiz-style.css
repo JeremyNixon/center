@@ -1,0 +1,124 @@
+body{
+	padding: 0;
+	margin: 0;
+	margin-top: 60px;
+	background-color: #efefef;
+	font-family: georgia;
+}
+
+#header{
+	text-align: center;
+	background-color: #223344;
+	height: 50px;
+	vertical-align: top;
+	position: absolute;
+	top: 0px;
+	border-bottom: 1px solid #00ffcc;
+	width: 100%;
+	font-size: 18px;
+}
+
+#navlist li{
+	display: inline;
+	padding-left: 40px;
+
+}
+
+
+a:link{
+	color: #fefefe;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+/* Quiz styling */
+#container{
+	float: left;
+	position: absolute;
+	top: 65px;
+	margin-left: 150px;
+	padding: 10px;
+	width: 50%;
+	background-color: #fff;
+	border: 1px solid #00ffcc;
+    border-radius: 10px;
+}
+.section{
+	border-bottom: 1px solid #242527;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+.question{
+	font-size: 22px;
+	font-weight: oblique;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.answers{
+	font-size: 18px;
+	color: #000;
+}
+
+/* Quiz Processing Page */
+.explaination{
+	float: center;
+	margin: 0 auto;
+	padding: 15px;
+	width: 70%;
+	background-color: #fff;
+	border: 1px solid #00ffcc;
+    border-radius: 10px;
+}
+.explaination-title{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.explaination-text{
+	text-align: left;
+	font-size: 17px;
+}
+
+.ratings{
+	position: absolute;
+	top: 10px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #fff;
+	border: 1px solid #00ffcc;
+    border-radius: 10px;
+}
+
+.ratings-title{
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Possibilities Page */
+
+#possibilities-container{
+	float: left;
+	position: absolute;
+	top: 65px;
+	margin-left: 150px;
+	padding: 20px;
+	width: 60%;
+	background-color: #fff;
+	border: 1px solid #00ffcc;
+    border-radius: 10px;
+}
+
+.possibilities-section{
+	border-bottom: 1px solid #242527;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}

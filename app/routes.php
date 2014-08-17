@@ -41,16 +41,36 @@ for ($i=0; $i < $num; $i++) {
   echo $faker->name, "<br>";
 }});
 
+# The Quiz ****************************************************************
+
+Route::get('/quiz', function(){
+    return View::make('/quiz/home');
+});
+
+Route::get('/quiz/take', function(){
+    return View::make('/quiz/take');
+});
+
+Route::post('/quiz/take', 'QuizController@postCreate');
+
+
+Route::get('/quiz/test', function(){
+    return View::make('/quiz/test');
+});
+
+Route::get('/quiz/process', function(){
+    return View::make('/quiz/process');
+});
+
+Route::get('/quiz/possibilities', function(){
+    return View::make('/quiz/possibilities');
+});
+
 # The Hammer **************************************************************
 
 Route::get('/hammer', function(){
     return View::make('/hammer/home');
 });
-
-Route::get('hammer-example', function(){
-    return View::make('hammer/thehammer');
-});
-
 Route::get('/hammer/issues', function(){
     return View::make('/hammer/issues');
 });
