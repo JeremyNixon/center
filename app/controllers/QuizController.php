@@ -6,7 +6,7 @@
 
 		public function postCreate() {
 
-	    $quiz = new quiz();
+	    $quiz = new Quiz();
 	    $quiz->fill(Input::all());
 	    $quiz->save();
 
