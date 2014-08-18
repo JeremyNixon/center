@@ -1,6 +1,7 @@
 @extends('/quiz/base')
 @section('body')
 	<div id="container">
+		<p id="heading"> Many answers to these questions may not be mutually exclusive.<br> Answer with the one that is most important to your beliefs.<p>
 	{{ Form::open(array('url' => 'quiz/take', 'method' => 'POST')) }}
 
 			<div class="section"><div class="question">
@@ -41,7 +42,7 @@
 			
 			<div class="section"><div class = "question"><p>5. The proper function of thought is...<p></div><div class="answers">
 			{{ Form::radio('q5', $value = 1) }} To accurately describe reality. <br>
-			{{ Form::radio('q5', $value = 2) }} To solve problems and guide our actions toward our goals. <br>
+			{{ Form::radio('q5', $value = 2) }} To solve problems and guide our actions toward our goals	. <br>
 			{{ Form::radio('q5', $value = 3) }} Noise that fills in moments of mental silence between activity. <br>
 			{{ Form::radio('q5', $value = 4) }} Thought has no proper function. <br>
 			{{ Form::radio('q5', $value = 5) }} My view is significantly different from all of these options. <br></div></div>
