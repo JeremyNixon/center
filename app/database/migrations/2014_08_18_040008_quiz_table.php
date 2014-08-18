@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Quiz extends Migration {
+class QuizTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -13,7 +13,7 @@ class Quiz extends Migration {
 	public function up()
 	{
 		//
-		Schema::create('quizzzes', function($table){
+		Schema::create('quizzes', function($table){
 			$table->increments('id');
 			$table->integer('q1');
 			$table->integer('q2');
