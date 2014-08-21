@@ -56,13 +56,13 @@ ul li {
 
 /* unvisited link */
 a:link {
-    color: #440000;
+    color: #440000 !important;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #400000;
+    color: #400000 !important;
     text-decoration: none;
 
 }
@@ -91,12 +91,17 @@ a:active {
 }
 .home-left{
     float: left;
+    font-size: 18px;
     text-align: center;
     width: 32%;
     margin: 5px;
 }
 .home-content-text{
     text-align: left;
+}
+.home-left-title{
+    font-size: 24px;
+
 }
 
 #post {

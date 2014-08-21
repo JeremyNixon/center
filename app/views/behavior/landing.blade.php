@@ -8,17 +8,17 @@
 </div>
 <div class="home-content-container">
 	<div class="home-left">
-		<a href="/behavior/review">Book Reviews</a><br>
+		<a class="home-left-title" href="/behavior/review">Book Reviews</a><br>
 		<div class="home-content-text">
 		Check out reviews of the Behavioral Economics Literature!
 	</div></div>
 	<div class="home-left">
-		<a href="/behavior/list">Reading List</a><br>
+		<a class="home-left-title" href="/behavior/list">Reading List</a><br>
 		<div class="home-content-text">
 		Check out the list of fascinating Behavioral Economics Literature!
 	</div></div>
 	<div class="home-left">
-		<a href="/behavior/forum">Forum</a><br>
+		<a class="home-left-title" href="/behavior/forum">Forum</a><br>
 		<div class="home-content-text">
 		Be part of a vibrant Behavioral Economics Discussion!
 	</div></div>
