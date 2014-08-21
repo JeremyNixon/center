@@ -1,4 +1,5 @@
 @extends('behavior-base')
+<title>Reading List</title>
 @section('body')
 
 <h1> Reading List </h1>

@@ -1,4 +1,5 @@
 @extends('behavior-base')
+<title>Sign Up</title>
 @section('body')
 
 <h1>Sign up</h1>

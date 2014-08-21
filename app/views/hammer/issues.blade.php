@@ -1,3 +1,4 @@
+<title>Issues</title>
 @extends('hammer-base')
 @section('body')
 <div class='left-column'>

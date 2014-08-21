@@ -3,6 +3,7 @@
 		<title>Open Club</title>
 @stop
 @section('body')
+<h1>Double-Click Video for Full-Screen</h1>
 
 <div class="label">Revolver vs. Ironside (Final Club Championships 2011)</div><br>
 <iframe src="//player.vimeo.com/video/34103535" width="200" height="100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

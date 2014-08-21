@@ -1,3 +1,4 @@
+<title>Home</title>
 @extends('hammer-base')
 @section('body')
     <?php $collection = Issue::findOrFail('1'); ?>

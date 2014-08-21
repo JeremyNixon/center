@@ -1,4 +1,5 @@
 @extends('behavior-base')
+<title>Book Reviews</title>
 @section('body')
 
 <h1> Book Reviews! </h2>

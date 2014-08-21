@@ -11,12 +11,6 @@ date_default_timezone_set ('america/new_york');
 	@section('head')
 		<link rel=stylesheet type="text/css" href="{{ URL::asset('/ultimate-style.css') }}">
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-		
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	@show
 </head>
 
@@ -34,9 +28,6 @@ date_default_timezone_set ('america/new_york');
 	<div id="container">
 		@yield('body')
 	</div>
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>

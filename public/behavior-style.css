@@ -9,6 +9,7 @@
 body {
 
     font-family: 'Merriweather', serif;
+    margin-left: 0px;
     
 }
 
@@ -78,7 +79,25 @@ a:active {
     color: #0000FF;
     text-decoration: none;
 
-}   
+}
+
+/* Home Page */
+
+.home-opening{
+}
+.home-content-container{
+    width: 100%;
+    margin-top: 80px;
+}
+.home-left{
+    float: left;
+    text-align: center;
+    width: 32%;
+    margin: 5px;
+}
+.home-content-text{
+    text-align: left;
+}
 
 #post {
   border-bottom: 3px solid #440000;

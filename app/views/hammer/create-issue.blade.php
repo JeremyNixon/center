@@ -4,7 +4,8 @@
 @stop
 @section('body')
 
-<h1 class='left-column	s'>Add a New Issue</h1>
+<h1>Add a New Issue</h1>
+<p>Pick up advice from the community</p>
 
 
 	{{ Form::open(array('url' => 'hammer/create-issue', 'method' => 'POST', 'class' => 'left-column')) }}

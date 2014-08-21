@@ -6,7 +6,7 @@ body{
 }
 #header{
 	vertical-align: bottom;
-	background-color: #444;
+	background-color: #555;
 	color: #eee;
 	height: 200px;
 	text-align: center;
@@ -68,7 +68,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #101010;
+    color: #222;
     text-decoration: underline;
 
 }
@@ -91,4 +91,19 @@ a:active {
 	font-style: italic;
 	font-size: 20px;
 	text-align: center;
+}
+
+.contact-jeremy{
+	margin-left: 30%;
+	font: arial;
+    font-size: 18px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #440000;
+    border-radius: 10px;
+    width: 35%;
+}
+
+.contact-picture{
+    height: 200px;
 }
