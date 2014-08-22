@@ -1,0 +1,351 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* Template */
+
+.header{
+margin-top: 15px;
+}
+
+.header-title{
+	color: #0000cc;
+	font-size: 28px;
+	float: right;
+	margin-right: 25%;
+	margin-top: 20px;
+}
+
+.logo{
+	height: 75px;
+	width: 180px;
+	margin-left: 12%;
+}
+
+.menu{
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 15%;
+	font-size: 20px;
+	height: 66px;
+}
+
+.menu-about{
+	background-color: #88aaff;
+	height: 45px;
+	width: 200px;
+	float: left;
+	margin-right: 50px;
+	padding-top: 20px;
+	border: 1px solid #000;
+}
+
+.menu-information{
+	background-color: #88aaff;
+	height: 55px;
+	width: 200px;
+	float: left;
+	margin-right: 50px;
+	padding-top: 10px;
+	border: 1px solid #000;
+}
+
+/* Home */
+.second-level{
+	height: 200px;
+}
+.who-we-are{
+	width: 22%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20%;
+}
+
+.home-title{
+	font-weight: bold;
+	font-size: 20;
+	text-align: center;
+	padding: 10px;
+}
+
+.who-we-are-text{
+	text-align: left;
+	font-size: 17px;
+}
+
+.our-missions{
+	width: 22%;
+	float: left;
+	margin-top: -128px;
+	margin-left: 55%;
+}
+
+.our-missions-text{
+	text-align: left;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.our-site{
+	width: 28%;
+	float: left;
+	margin-top: 80px;
+	margin-left: 35%;
+}
+
+.our-site-title{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.our-site-text{
+	font-size: 17px;
+}
+
+/* About Page */
+
+.about-container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.history{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 50%;
+}
+
+.history-title{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.history-text{
+	font-size: 17px;
+}
+
+.membership{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 30%;
+
+}
+
+.membership-title{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.membership-text{
+	font-size: 17px;
+}
+
+.member-organizations{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 30%;
+
+}
+
+.member-organizations-title{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.member-organizations-title{
+	font-size: 17px;
+}
+
+/* Consumer Information */
+
+.scam{
+	width: 20%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20%;
+}
+
+.scam-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.scam-text{
+	font-size: 17px;
+}
+
+.blog{
+	width: 20%;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20%;
+}
+
+.blog-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.blog-text{
+	font-size: 17px;
+}
+
+
+.links{
+	width: 20%;
+	float: left;
+	margin-left: 20%;
+}
+
+.links-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.links-text{
+	font-size: 17px;
+}
+
+/* Consumer Resources */
+
+.education{
+	width: 20%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20%;
+}
+
+.education-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.education-text{
+	font-size: 17px;
+}
+
+.scam-log{
+	width: 20%;
+	float: right;
+	height: 400px;
+	margin-top: 25px;
+	margin-right: 20%;
+}
+
+.scam-log-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.scam-log-text{
+	font-size: 17px;
+}
+
+.add-scam{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 76px;
+}
+
+
+.agencies{
+	width: 20%;
+	float: left;
+	margin-left: 20%;
+}
+
+.agencies-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.agencies-text{
+	font-size: 17px;
+}
+
+/* Scam */
+
+.scam-container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.scam-title{
+	text-align: center;
+}
+
+.scam-content{
+	font-size: 17px;
+
+}
+/* Issues and Legislation */
+
+.second-level-issues{
+	height: 200px;
+
+}
+
+.issues{
+	width: 20%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20%;
+	
+}
+
+.issues-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.issues-text{
+	font-size: 17px;
+}
+
+.add-issue{
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 76px;
+}
+
+.legislation{
+	width: 20%;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20%;
+	
+}
+
+.legislation-title{
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 10px;
+}
+
+.legislation-text{
+	font-size: 17px;
+}

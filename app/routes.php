@@ -41,6 +41,52 @@ for ($i=0; $i < $num; $i++) {
   echo $faker->name, "<br>";
 }});
 
+# MCC *********************************************************************
+
+Route::get('/mcc', function(){
+    return View::make('/mcc/home');
+});
+
+Route::get('/mcc/about', function(){
+    return View::make('/mcc/about');
+});
+
+Route::get('/mcc/consumer-information', function(){
+    return View::make('/mcc/consumer-information');
+});
+
+Route::get('/mcc/consumer-resources', function(){
+    return View::make('/mcc/consumer-resources');
+});
+
+Route::get('/mcc/issues-legislation', function(){
+    return View::make('/mcc/issues-legislation');
+});
+
+Route::get('/mcc/scam-create', function(){
+    return View::make('mcc/scam-create');
+});
+
+Route::post('/mcc/scam-create', 'ScamController@postCreate');
+
+Route::get('/mcc/scam-created', function(){
+    return View::make('mcc/scam-created');
+});
+
+Route::get('/mcc/scam/{id}', 'ScamController@postRead');
+
+Route::get('/mcc/issue-create', function(){
+    return View::make('mcc/issue-create');
+});
+
+Route::post('/mcc/issue-create', 'ProblemController@postCreate');
+
+Route::get('/mcc/issue-created', function(){
+    return View::make('mcc/issue-created');
+});
+
+Route::get('/mcc/issue/{id}', 'ProblemController@postRead');
+
 # The Quiz ****************************************************************
 
 Route::get('/quiz', function(){
