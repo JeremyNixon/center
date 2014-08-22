@@ -1,14 +1,7 @@
 <title>Consumer Resources</title>
 @extends('mcc/base')
 @section('body')
-<style>
-  body{
-    margin-top: -4px;
-  }
-  .header{
-    margin-top: 0px;
-  }
-</style>
+
 <div class="second-level">
   <div class="education">
     <div class="education-title">
@@ -36,7 +29,7 @@
     }
     ?>
     <br>
-    <a class="add-scam" href="/mcc/scam-create">Add New Scam</a>
+    <a class="add-scam" href="/mcc/scam-create">Add New Scam</a>ik
   </div>
   </div>
 </div>
