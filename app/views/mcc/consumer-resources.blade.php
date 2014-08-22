@@ -29,7 +29,7 @@
     }
     ?>
     <br>
-    <a class="add-scam" href="/mcc/scam-create">Add New Scam</a>ik
+    <a class="add-scam" href="/mcc/scam-create">Add New Scam</a>
   </div>
   </div>
 </div>
