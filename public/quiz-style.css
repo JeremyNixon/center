@@ -13,7 +13,8 @@ body{
 	vertical-align: top;
 	position: absolute;
 	top: 0px;
-	border-bottom: 1px solid #00ffcc;
+	border-bottom: 1px solid #000;
+	/* 00ffcc */
 	width: 100%;
 	font-size: 18px;
 }
@@ -42,14 +43,14 @@ a:visited{
 	font-style: italic;
 }
 #container{
-	float: left;
-	position: absolute;
+	margin: 0 auto;
+	position: ;
 	top: 65px;
-	margin-left: 150px;
 	padding: 10px;
 	width: 50%;
 	background-color: #fff;
-	border: 1px solid #00ffcc;
+	border: 1px solid #000;
+	/* 00ffcc */
     border-radius: 10px;
 }
 .section{

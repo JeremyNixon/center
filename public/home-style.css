@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	margin-top: 50px;
+}
+
+#header{
+	text-align: center;
+	background-color: #223344;
+	height: 50px;
+	vertical-align: top;
+	position: absolute;
+	top: 0px;
+	border-bottom: 1px solid #000;
+	/* 00ffcc */
+	width: 100%;
+	font-size: 18px;
+}
+
+#navlist li{
+	display: inline;
+	padding-left: 40px;
+
+}
+
+a:link{
+	color: #fefefe;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.container{
+	margin: 0 auto;
+	width: 70%;
+	font-size: 17px;
+}
+
+.name-heading{
+	margin: 0 auto;
+	text-align: center;
+	border: #fff;
+	font-size: 30px;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+.jeremy{
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.timestamp-video{
+	height: 400px;
+}

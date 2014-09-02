@@ -1,5 +1,6 @@
 @extends('/quiz/base')
 @section('body')
+<title>Take the Quiz</title>
 	<div id="container">
 		<p id="heading"> Many answers to these questions may not be mutually exclusive.<br> Answer with the one that is most important to your beliefs.<p>
 	{{ Form::open(array('url' => 'quiz/take', 'method' => 'POST')) }}
