@@ -47,6 +47,13 @@ Route::get('/', function(){
     return View::make('/home/home');
 });
 
+Route::get('/home/reading-list', function(){
+    return View::make('/home/reading-list');
+});
+
+Route::get('/home/contact', function(){
+    return View::make('/home/contact');
+});
 # MCC *********************************************************************
 
 Route::get('/mcc', function(){

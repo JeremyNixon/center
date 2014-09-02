@@ -1,18 +1,13 @@
 @extends('home/base')
 @section('body')
 <title>Jeremy Nixon</title>
-<div class="container">
+	
+
+
+<div class="home-container" >
 	<div class="name-heading">
 		Jeremy Vaughn Nixon
 	</div>
-
-<body id="body">
-
-<div>
-	<div id="hello">
-		<h1><b>Hello World!</b></h1>
-	</div>
-
 
 	<div class="text" id="whatido">
 		<p>I'm a Junior at Harvard College, concentrating in <em>Applied Mathematics and Economics</em> with a strong focus on Behavioral Economics.
@@ -24,11 +19,7 @@
 		<img class="jeremy" src="jeremydisc.jpg">
 	</div>
 
-	
-</body>
+			<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/jdG75RY5S84" frameborder="0" allowfullscreen></iframe>
 
-
-
-</div>
 
 @stop
