@@ -18,8 +18,8 @@ date_default_timezone_set ('america/new_york');
 		<ul id="navlist">
 			<li><a href="/">Home</a><li>
 			<li><a href="/home/reading-list">Reading List</a><li>
-\			<li><a href="/quiz">Philosophy Quiz</a><li>
-			<li><a href="project-four.jeremynixon.me">Timestamp</a><li>
+			<li><a href="/quiz">Philosophy Quiz</a><li>
+\			<li><a href="http://project-four.jeremynixon.me/">Timestamp</a><li>
 			<li><a href="/home/contact">Contact</a><li>
 		</ul>
 </div>
