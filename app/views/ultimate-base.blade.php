@@ -23,6 +23,7 @@ date_default_timezone_set ('america/new_york');
 		<li><a href="/ultimate-video-online/women-club">Women's Club</a></li>
 		<li><a href="/ultimate-video-online/open-college">Open College</a></li>
 		<li><a href="/ultimate-video-online/women-college">Women's College</a></li>
+		<li><a href="/ultimate-video-online/triple-cripple">Triple Cripple</a></li>
 		</ul>
 	</div><br><br>
 	<div id="container">
