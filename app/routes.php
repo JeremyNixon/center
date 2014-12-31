@@ -307,6 +307,11 @@ Route::get('/ultimate-video-online/women-college', function(){
 	return View::make('/ultimate-video-online/women-college');
 });
 
+Route::get('/ultimate-video-online/triple-cripple', function(){
+    return View::make('/ultimate-video-online/triple-cripple');
+});
+
+
 
 # Project Three *********************************************************
 

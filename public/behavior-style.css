@@ -84,6 +84,7 @@ a:active {
 /* Home Page */
 
 .home-opening{
+    margin-top: 50px;
 }
 .home-content-container{
     width: 100%;
