@@ -10,7 +10,24 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+# Blog ###############################################################
 
+Route::get('/', function(){
+    return View::make('/blog/landing');
+});
+
+Route::get('/post1', function(){
+    return View::make('/blog/post1');
+});
+
+Route::get('/post2', function(){
+    return View::make('/blog/post2');
+});
+
+
+
+
+# MISC ###############################################################
 
 
 Route::get('bcs', function(){
@@ -43,7 +60,7 @@ for ($i=0; $i < $num; $i++) {
 
 # Home ********************************************************************
 
-Route::get('/', function(){
+Route::get('/home', function(){
     return View::make('/home/home');
 });
 

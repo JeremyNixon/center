@@ -7,34 +7,31 @@ date_default_timezone_set ('america/new_york');
 <!doctype html>
 <html>
 <head>
+  <title>Pensive</title>
+
 	@yield('title')
+
 	@section('head')
-		<link rel=stylesheet type="text/css" href="{{ URL::asset('/behavior-style.css') }}">
+		<link rel=stylesheet type="text/css" href="{{ URL::asset('/blog-style.css') }}">
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-	@show
+    <link rel=stylesheet type="text/css" href="{{ URL::asset('/cs109-style.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+  @show
 </head>
   <div id='header'>
     <ul id="navlist">
-      <li><a href="/behavior">Behavioral Economics</a><li>
-      <li><a href="/behavior/review">Book Reviews</a><li>
-      <li><a href="/behavior/list">BE Reading List</a><li>
-      <li><a href="/behavior/forum">Forum</a><li>
-        @if(Auth::check())
-      <li><a href="/behavior/logout">Logout</a></li>
-    @else
-    <li><a href="/behavior/signup">Sign Up</a>|<a href="/behavior/login">Login</a></li>
-    @endif
-
-    @if(Auth::check())
-        <li>Hello {{ Auth::user()->name; }}!</li>
-    @endif 
+      <li ><a class='header_home' href="/">Pensive</a><li>
+      <li><a href="/post2">Indoor League</a><li>
+      <li><a href="github.com/JeremyNixon">Github Account</a><li>
     </ul>
   </div><br><br>
-  <div id="container">
 <body>
+<div id="container">
 @yield('body')
 
-	</div>
+</div>
 </body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
