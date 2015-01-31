@@ -43,7 +43,7 @@
 			
 			<div class="section"><div class = "question"><p>5. The proper function of thought is...<p></div><div class="answers">
 			{{ Form::radio('q5', $value = 1) }} To accurately describe reality. <br>
-			{{ Form::radio('q5', $value = 2) }} To solve problems and guide our actions toward our goals	. <br>
+			{{ Form::radio('q5', $value = 2) }} To solve problems and guide our actions toward our goals. <br>
 			{{ Form::radio('q5', $value = 3) }} Noise that fills in moments of mental silence between activity. <br>
 			{{ Form::radio('q5', $value = 4) }} Thought has no proper function. <br>
 			{{ Form::radio('q5', $value = 5) }} My view is significantly different from all of these options. <br></div></div>

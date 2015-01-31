@@ -26,7 +26,7 @@ date_default_timezone_set ('america/new_york');
     @endif
 
     @if(Auth::check())
-        <li>Hello {{ Auth::user()->name; }}!</li>
+        <li>Hello {{ Auth::user()->first_name; }}!</li>
     @endif 
     </ul>
   </div><br><br>

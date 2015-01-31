@@ -74,7 +74,9 @@ a:visited{
 /* Quiz Processing Page */
 .explaination{
 	float: center;
+	width: 80%;
 	margin: 0 auto;
+	margin-left: 20%;
 	padding: 15px;
 	width: 70%;
 	background-color: #fff;
@@ -95,9 +97,13 @@ a:visited{
 
 .ratings{
 	position: absolute;
+	text-align: right;
+	float: center;
+	margin-left: 1.7%;
+	width: 9%;
 	top: 10px;
 	float: left;
-	margin-left: 25px;
+	/*margin-left: 1.7%;*/
 	margin-top: 50px;
 	padding: 15px;
 	background-color: #fff;

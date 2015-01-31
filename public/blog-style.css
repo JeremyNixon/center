@@ -114,6 +114,13 @@ table {
     display: inline-block;
 }
 
+.atr_container{
+    margin-top: 50px;
+}
+
+.atr_title{
+}
+
 .accurate{
     text-align: center;
     margin-bottom: 10px;
@@ -125,6 +132,10 @@ table {
     margin-bottom: 10px;
     display: inline-block;
     margin-top: 10px;
+}
+
+.accuracy_container{
+
 }
 
 .a_table{
@@ -170,6 +181,13 @@ table {
 .tpg{
     width: 30%;
     float: right;
+}
+
+.atr{
+    float: right;
+    text-align: right;
+    margin-right: 0%;
+
 }
 
 #post {
