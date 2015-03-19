@@ -24,6 +24,10 @@ Route::get('/post2', function(){
     return View::make('/blog/post2');
 });
 
+Route::get('/post3', function(){
+    return View::make('/blog/post3');
+});
+
 
 
 
