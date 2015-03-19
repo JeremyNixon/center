@@ -8,7 +8,6 @@
 		"badcow/lorem-ipsum": "dev-master",
 		"fzaninotto/faker": "1.5.*@dev",
 		"phpoffice/phpexcel": "1.8.0"
-		// "maatwebsite/excel": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
