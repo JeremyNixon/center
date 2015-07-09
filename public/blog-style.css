@@ -21,7 +21,7 @@ body {
     margin: auto;
     margin-top: 50px;
     font-family: 'Muli', serif;
-    width: 80%;
+    width: 60%;
 }
 /* Header */
 #header {
@@ -47,6 +47,10 @@ body {
 }
 
 /* Other Misc */
+
+.title{
+    text-align: center;
+}
 
 #footer {
     background:#f0f0f0;
@@ -115,7 +119,7 @@ table {
 }
 
 .atr_container{
-    margin-top: 50px;
+    margin-top: 25%;
 }
 
 .atr_title{
@@ -186,8 +190,7 @@ table {
 .atr{
     float: right;
     text-align: right;
-    margin-right: 0%;
-
+    margin-right: -10%;
 }
 
 #post {
@@ -221,4 +224,16 @@ table {
 .content-field-comment {
     width: 70%;
     height: 100px;
+}
+/* Reading List */
+
+.date_title{
+    font-size: 24;
+    text-align: center;
+}
+
+/* Posts General */
+
+.book-title{
+    text-align: center;
 }

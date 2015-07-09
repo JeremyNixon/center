@@ -28,7 +28,37 @@ Route::get('/post3', function(){
     return View::make('/blog/post3');
 });
 
+Route::get('/post4', function(){
+    return View::make('/blog/post4');
+});
 
+Route::get('/post5', function(){
+    return View::make('/blog/post5');
+});
+
+Route::get('/post6', function(){
+    return View::make('/blog/post6');
+});
+
+Route::get('/post7', function(){
+    return View::make('/blog/post7');
+});
+
+Route::get('/reading', function(){
+    return View::make('blog/reading_list');
+});
+
+Route::get('/reading/poor-charlies-almanac', function(){
+    return View::make('blog/reading/poor_charlies_almanac');
+});
+
+Route::get('/reading/poor-charlies-almanac1', function(){
+    return View::make('blog/reading/poor-charlies-almanac');
+});
+
+Route::get('/reading/antifragile', function(){
+    return View::make('blog/reading/antifragile');
+});
 
 
 # MISC ###############################################################
