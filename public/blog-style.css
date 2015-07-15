@@ -24,6 +24,7 @@ body {
     font-family: 'Muli', serif;
     width: 60%;
 }
+
 /* Header */
 #header {
     font-family: 'Lato';
@@ -154,13 +155,13 @@ table {
 .assists_per_game{
     float: left;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .goals_per_game{
     float: right;
     text-align: right;
-    margin-right: 15%;
+    margin-right: 10%;
 
 }
 
