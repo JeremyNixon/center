@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+
     background-color: #fff;
     /*background-color: #efefef;*/
     font-family: 'Muli', sans-serif;
@@ -22,6 +23,7 @@ body {
     margin-top: 50px;
     font-family: 'Muli', serif;
     width: 60%;
+    font-size: 30px;
 }
 /* Header */
 #header {
@@ -235,5 +237,9 @@ table {
 /* Posts General */
 
 .book-title{
+    text-align: center;
+}
+
+.growth{
     text-align: center;
 }
