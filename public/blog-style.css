@@ -23,7 +23,6 @@ body {
     margin-top: 50px;
     font-family: 'Muli', serif;
     width: 60%;
-    font-size: 25px;
 }
 /* Header */
 #header {
@@ -242,4 +241,8 @@ table {
 
 .growth{
     text-align: center;
+}
+
+.growth_container{
+    font-size: 25px;
 }
