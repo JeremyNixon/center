@@ -40,7 +40,7 @@ Route::get('/post6', function(){
     return View::make('/blog/post6');
 });
 
-Route::get('/post7', function(){
+Route::get('/growth-as-a-way-of-life', function(){
     return View::make('/blog/post7');
 });
 

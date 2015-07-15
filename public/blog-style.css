@@ -11,7 +11,7 @@ body {
 .label{
     text-align: center;
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: #400000;
 
@@ -23,7 +23,7 @@ body {
     margin-top: 50px;
     font-family: 'Muli', serif;
     width: 60%;
-    font-size: 30px;
+    font-size: 25px;
 }
 /* Header */
 #header {
