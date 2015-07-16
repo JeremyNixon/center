@@ -6,11 +6,11 @@
 <p>
 We all know that we should explore. And when it’s really necessary, we do. 
 </p><p>
-Say you’re a freshman in your first few weeks at Harvard, you energetically explore the social space. It’s necessary. 
+Say you’re a freshman in your first few weeks at college. You energetically explore the social space. It’s necessary. 
 </p><p>
 But the turn from exploration to exploitation happens all too quickly. 
 </p><p>
-Friend groups form in the first few weeks, and because you searched out of neediness and hope for social security you lose that part of your motivation. The biological drive for acceptance satisfied, your energies redirect towards academics or whatever other engagements animate you.
+Friend groups form in the first few weeks, and so if you searched out of neediness and hope for social validation and security you lose that part of your motivation. The biological drive for acceptance satisfied, your energies redirect towards academics or whatever other engagements animate you.
 </p><p>
 This is the point at which a shift is made between exploration and exploitation. 
 </p><p>
