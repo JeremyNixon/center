@@ -45,6 +45,7 @@ body {
     font-family: 'Yellowtail';
     font-size: 30px;
     text-decoration: underline;
+    color: #000000;
     /*text-shadow:;*/
 }
 
@@ -241,7 +242,7 @@ table {
     text-align: center;
 }
 
-.growth{
+.post-title{
     text-align: center;
 }
 

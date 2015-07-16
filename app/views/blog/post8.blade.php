@@ -1,6 +1,6 @@
 @extends('/blog/blog-base')
 @section('body')
-<h2 class="growth">Algorithmic Thinking</h2>
+<h2 class="post-title">Algorithmic Thinking</h2>
 <div class="alg">
 <p>
 We see the same type of problems with the same type of structure over and over again. Algorithmic thinking is creating a little process that lets us bring our best ideas to bear on the situation consistently. 

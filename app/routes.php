@@ -48,6 +48,10 @@ Route::get('/algorithmic-thinking', function(){
     return View::make('/blog/post8');
 });
 
+Route::get('/exploration-exploitation', function(){
+    return View::make('/blog/post9');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });

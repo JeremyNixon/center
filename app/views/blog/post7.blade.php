@@ -1,7 +1,7 @@
 @extends('/blog/blog-base')
 @section('body')
 
-<h2 class="growth">Growth as a Way of Life</h2>
+<h2 class="post-title">Growth as a Way of Life</h2>
 <div class = "growth_container">
 	<p>
 	Reference Dependence kills everything.
