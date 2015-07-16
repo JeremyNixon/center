@@ -1,11 +1,14 @@
 @extends('/blog/blog-base')
 @section('body')
 
-<h2 class="post-title">Exploration Exploitation Tradeoff</h2>
+<h2 class="post-title">Exploration Exploitation Tradeoff</h2>	
+<div class="exploration_exploitation_container">
 <p>
-We all know that we should explore. And when it’s really necessary, we do. Say you’re a freshman in your first few weeks at Harvard, you energetically explore the social space. It’s necessary. 
+We all know that we should explore. And when it’s really necessary, we do. 
 </p><p>
-But turn from exploration to exploitation happens all too quickly. 
+Say you’re a freshman in your first few weeks at Harvard, you energetically explore the social space. It’s necessary. 
+</p><p>
+But the turn from exploration to exploitation happens all too quickly. 
 </p><p>
 Friend groups form in the first few weeks, and because you searched out of neediness and hope for social security you lose that part of your motivation. The biological drive for acceptance satisfied, your energies redirect towards academics or whatever other engagements animate you.
 </p><p>
@@ -23,4 +26,5 @@ Exploration also lets you dump weaker options. Triage. By eliminating wasteful i
 </p><p>
 And so with every experience you face a choice. Do you explore, and learn something new? Or do you exploit, choosing what has worked before? If you’re far off on either end of this tradeoff in any critical part of your life, dramatic improvements are there for the picking.
 </p>
+</div>
 @stop
