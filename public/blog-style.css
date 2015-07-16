@@ -74,13 +74,13 @@ ul li {
 
 /* unvisited link */
 a:link {
-    color: #440000 !important;
+    /*color: #440000 !important;*/
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #400000 !important;
+    /*color: #400000 !important;*/
     text-decoration: none;
 
 }
@@ -161,7 +161,8 @@ table {
 .goals_per_game{
     float: right;
     text-align: right;
-    margin-right: 10%;
+    margin-right: 10
+    %;
 
 }
 
@@ -245,5 +246,12 @@ table {
 }
 
 .growth_container{
-    font-size: 25px;
+    font-size: 23px;
+    line-height: 180%;
 }
+
+.alg{
+    font-size: 23px;
+    line-height: 180%;
+}
+

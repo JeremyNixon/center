@@ -7,7 +7,7 @@ date_default_timezone_set ('america/new_york');
 <!doctype html>
 <html>
 <head>
-  <title>Pensive</title>
+  <title>Hyperanalytic</title>
 
 	@yield('title')
 
@@ -23,8 +23,8 @@ date_default_timezone_set ('america/new_york');
   <div id='header'>
     <ul id="navlist">
       <li ><a class='header_home' href="/">Hyperanalytic</a><li>
-      <li><a href="/post2">Indoor League</a><li>
-      <li><a href="github.com/JeremyNixon">Github Account</a><li>
+      <!-- <li><a href="/post2">Indoor League</a><li>
+      <li><a href="github.com/JeremyNixon">Github Account</a><li> -->
     </ul>
   </div><br><br>
 <body>

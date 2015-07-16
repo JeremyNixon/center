@@ -1,9 +1,9 @@
 @extends('/blog/blog-base')
 @section('body')
 <h2 class="growth">Algorithmic Thinking</h2>
-
+<div class="alg">
 <p>
-Life is repetitive, and especially with specialization we see the same type of problem with similar structure over and over again. Algorithmic thinking is creating a little process that lets us bring the best ideas to bear on the situation consistently. 
+We see the same type of problems with the same type of structure over and over again. Algorithmic thinking is creating a little process that lets us bring our best ideas to bear on the situation consistently. 
 </p><p>
 As an example, take decision making. Each time I make a choice, I have an opportunity to improve my choice through a simple algorithm. For example:
 </p>
@@ -47,4 +47,5 @@ Specialization means that you probably see a particular type of problem really o
 </p><p>
 You start to find that if you want to accomplish any task, writing an algorithm for it is quite easy. The difficult part becomes behaving in a way that’s aligned with your idea. But the thinking can often be quite easy - getting used to thinking algorithmically can free up mental resources (attention and worry) as well. 
 </p>
+</div>
 @stop
