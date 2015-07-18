@@ -52,6 +52,10 @@ Route::get('/exploration-exploitation', function(){
     return View::make('/blog/post9');
 });
 
+Route::get('/KNN', function(){
+    return View::make('/blog/post10');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });

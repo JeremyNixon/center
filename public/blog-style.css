@@ -246,6 +246,10 @@ table {
     text-align: center;
 }
 
+.post_title{
+    text-align: center;
+}
+
 .growth_container{
     font-size: 23px;
     line-height: 180%;
