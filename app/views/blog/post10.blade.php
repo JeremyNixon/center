@@ -1,7 +1,7 @@
 @extends('/blog/blog-base')
 @section('body')
 
-<h2 class='post_title'>KNN Tutorial in Python</h2>
+<h2 class='post_title'>K-Nearest Neighbors Tutorial in Python</h2>
 <p>
 KNN takes the K-closest samples from a training set uses them to predict a new sample. It’s a non-parametric approach - it doesn’t make assumptions about the structure of the data like linearity or assume a particular probability distribution. 
 </p>
