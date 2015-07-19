@@ -56,6 +56,10 @@ Route::get('/KNN', function(){
     return View::make('/blog/post10');
 });
 
+Route::get('/how-to-think', function(){
+    return View::make('/blog/post11');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
@@ -67,6 +71,8 @@ Route::get('/reading/poor-charlies-almanac', function(){
 Route::get('/reading/poor-charlies-almanac1', function(){
     return View::make('blog/reading/poor-charlies-almanac');
 });
+
+
 
 Route::get('/reading/antifragile', function(){
     return View::make('blog/reading/antifragile');

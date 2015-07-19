@@ -1,6 +1,8 @@
 @extends('/blog/blog-base')
 @section('body')
 
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
 <h2 class='post_title'>K-Nearest Neighbors Tutorial in Python</h2>
 <p>
 KNN takes the K-closest samples from a training set uses them to predict a new sample. It’s a non-parametric approach - it doesn’t make assumptions about the structure of the data like linearity or assume a particular probability distribution. 
@@ -11,9 +13,7 @@ What is distance?
 <p>
 The common definition of distance is Euclidean distance - the straight line distance between two standards. 
 </p>
-<!-- <MATH>
-	\sum_j=1^p
-</MATH> -->
+$$	\sqrt{\sum_{j=1}^p(x_{aj}-x_{bj})^2} $$
 <p>
 But there are other ways to measure distance. Manhattan Distance (or city block distance) is also a common metric. 
 </p>
