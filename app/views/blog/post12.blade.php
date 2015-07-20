@@ -4,7 +4,7 @@
 <h2 class='post_title'>Optionality at the Core</h2>
 
 <p>
-There are a number of inter-related ideas that I’d like to connect. Those are Optionality, Trial and Error, Exploration-Exploitation, Experimentation, Natural Selection, Comfort Zones, Creative Destruction, and certainly a swath of other critical ideas. 
+There are a number of interrelated ideas that I’d like to connect. Those are Optionality, Trial and Error, Exploration-Exploitation, Experimentation, Natural Selection, Comfort Zones, Creative Destruction, and certainly a swath of other critical ideas. 
 </p><p>
 </p><p>The central idea is Optionality - in many cases, you get the upside from volatility. You sample over and over from a distribution (you can imagine meeting potential friends/romantic partners, or trying out classes or a major at college, or there being many mutations of a gene in a population) and take the best, or at least the better, option.
 </p><p>
