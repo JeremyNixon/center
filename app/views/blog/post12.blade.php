@@ -1,7 +1,7 @@
 @extends('/blog/blog-base')
 @section('body')
 
-<h2 class='post_title'>Optionality at the Core</h2>
+<h2 class='post_title'>Optimize for Volatility, not Average Capacity</h2>
 
 <p>
 There are a number of interrelated ideas that I’d like to connect. Those are Optionality, Trial and Error, Exploration-Exploitation, Experimentation, Natural Selection, Comfort Zones, Creative Destruction, and certainly a swath of other critical ideas. 

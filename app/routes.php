@@ -60,7 +60,7 @@ Route::get('/how-to-think', function(){
     return View::make('/blog/post11');
 });
 
-Route::get('/optionality-at-the-core', function(){
+Route::get('/optimize-for-volatility-not-average-capacity', function(){
     return View::make('/blog/post12');
 });
 
