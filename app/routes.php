@@ -60,6 +60,10 @@ Route::get('/how-to-think', function(){
     return View::make('/blog/post11');
 });
 
+Route::get('/optionality-at-the-core', function(){
+    return View::make('/blog/post12');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });

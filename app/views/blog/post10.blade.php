@@ -18,6 +18,10 @@ $$	\sqrt{\sum_{j=1}^p(x_{aj}-x_{bj})^2} $$
 But there are other ways to measure distance. Manhattan Distance (or city block distance) is also a common metric. 
 </p>
 
+$$  {\sum_{j=1}^p|x_{aj}-x_{bj}|} $$
+
+$$	({\sum_{j=1}^p|x_{aj}-x_{bj}|^q})^{1/q} $$
+
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">math</span>
 <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">numpy</span> <span style="color: #008800; font-weight: bold">as</span> <span style="color: #0e84b5; font-weight: bold">np</span>
 <span style="color: #008800; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">operator</span> 
