@@ -1,7 +1,7 @@
 @extends('/blog/blog-base')
 @section('body')
 <h3> Essays </h3>
-<a href="/optionality-at-the-core">Optimize for Volatility, not Average Capacity</a> - How upside from optionality is at the core of growth in systems. <br>
+<a href="/optimize-for-volatility-not-average-capacity">Optimize for Volatility, not Average Capacity</a> - How upside from optionality is at the core of growth in systems. <br>
 <a href="/exploration-exploitation">Exploration - Exploitation</a> - Explore to extract option value. <br>
 <a href='/algorithmic-thinking'>Algorithmic Thinking</a> - On being systematic.<br>
 <a href="/growth-as-a-way-of-life">Growth as a Way of Life</a> - Overcoming the trap of reference dependence.<br>
