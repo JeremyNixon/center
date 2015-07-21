@@ -68,6 +68,10 @@ Route::get('/elon-musk', function(){
     return View::make('/blog/post13');
 });
 
+Route::get('/greatness', function(){
+    return View::make('/blog/post14');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
