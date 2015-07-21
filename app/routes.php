@@ -64,6 +64,10 @@ Route::get('/optimize-for-volatility-not-average-capacity', function(){
     return View::make('/blog/post12');
 });
 
+Route::get('/elon-musk', function(){
+    return View::make('/blog/post13');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
