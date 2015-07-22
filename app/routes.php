@@ -72,6 +72,10 @@ Route::get('/greatness', function(){
     return View::make('/blog/post14');
 });
 
+Route::get('/ridge-regression', function(){
+    return View::make('/blog/post15');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
