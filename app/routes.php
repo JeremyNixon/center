@@ -24,7 +24,7 @@ Route::get('/post2', function(){
     return View::make('/blog/post2');
 });
 
-Route::get('/post3', function(){
+Route::get('/decisive', function(){
     return View::make('/blog/post3');
 });
 
@@ -32,11 +32,11 @@ Route::get('/post4', function(){
     return View::make('/blog/post4');
 });
 
-Route::get('/post5', function(){
+Route::get('/antifragile', function(){
     return View::make('/blog/post5');
 });
 
-Route::get('/post6', function(){
+Route::get('/scott-kominers', function(){
     return View::make('/blog/post6');
 });
 

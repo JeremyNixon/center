@@ -18,6 +18,7 @@ date_default_timezone_set ('america/new_york');
     <link href='http://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
   @show
 </head>
   <div id='header'>
@@ -29,6 +30,7 @@ date_default_timezone_set ('america/new_york');
   </div><br><br>
 <body>
 <div id="container">
+
 <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 @yield('body')
 
