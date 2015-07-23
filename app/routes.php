@@ -76,6 +76,10 @@ Route::get('/ridge-regression', function(){
     return View::make('/blog/post15');
 });
 
+Route::get('/social-exploration', function(){
+    return View::make('/blog/post16');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
