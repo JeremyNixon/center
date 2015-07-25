@@ -80,6 +80,10 @@ Route::get('/social-exploration', function(){
     return View::make('/blog/post16');
 });
 
+Route::get('/introspection', function(){
+    return View::make('/blog/post17');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });

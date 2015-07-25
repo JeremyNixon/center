@@ -3,8 +3,8 @@
 
 
 <h3> Essays </h3>
-
-<a href='/social-exploration'>Social Exploration at Harvard</a> - A Reflection on Systematic Social Growth
+<a href='/introspection'>Introspection</a> - Methods for Self Awareness
+<br><a href='/social-exploration'>Social Exploration at Harvard</a> - A Reflection on Systematic Social Growth
 <br><a href='/greatness'>What Forces Motivate People to Ascend to Greatness?</a>
 <br><a href='/how-to-think'>How to Think</a> - A Framework for Problem Solving
 <br><a href="/optimize-for-volatility-not-average-capacity">Optimize for Volatility, not Average Capacity</a> - How upside from optionality is at the core of systemic growth.
@@ -25,7 +25,7 @@
 <a href='/antifragile'>Antifragile</a> - Nicholas Nassim Taleb
 <br><a href='/decisive'>Decisive</a> - Chip and Dan Heath
 <br><a href='/elon-musk'> Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a> - Ashlee Vance
-<br><a href="/reading/poor-charlies-almanac">Poor Charlie's Almanac</a> - Charles Munger
+<!-- <br><a href="/reading/poor-charlies-almanac">Poor Charlie's Almanac</a> - Charles Munger -->
 <br><br>
 <a href='/reading'>Reading List</a>
 <!-- 
