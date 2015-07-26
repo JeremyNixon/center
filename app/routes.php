@@ -84,6 +84,10 @@ Route::get('/introspection', function(){
     return View::make('/blog/post17');
 });
 
+Route::get('/ideaflow', function(){
+    return View::make('/blog/post18');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });

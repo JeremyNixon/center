@@ -3,7 +3,8 @@
 
 
 <h3> Essays </h3>
-<a href='/introspection'>Introspection</a> - Methods for Self Awareness
+<a href='/ideaflow'>Idea Flow</a> - On Intellectual Growth
+<br><a href='/introspection'>Introspection</a> - Methods for Self Awareness
 <br><a href='/social-exploration'>Social Exploration at Harvard</a> - A Reflection on Systematic Social Growth
 <br><a href='/greatness'>What Forces Motivate People to Ascend to Greatness?</a>
 <br><a href='/how-to-think'>How to Think</a> - A Framework for Problem Solving
