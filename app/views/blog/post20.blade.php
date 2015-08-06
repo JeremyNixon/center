@@ -1,10 +1,9 @@
 
 
-@extends('/blog/blog-base')
-@section('body')
+
 
 <html>
-<head style='margin-top: 50px'><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
 <style type="text/css">
 <!--
 span.cls_002{font-family:Arial,serif;font-size:11.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
@@ -35,7 +34,7 @@ div.cls_009{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight
 </style>
 <script type="text/javascript" src="f7a150fc-3be7-11e5-9555-002590d31986_id_f7a150fc-3be7-11e5-9555-002590d31986_files/wz_jsgraphics.js"></script>
 </head>
-<body >
+<body>
 <div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
 <div style="position:absolute;left:0px;top:0px">
 <img src="f7a150fc-3be7-11e5-9555-002590d31986_id_f7a150fc-3be7-11e5-9555-002590d31986_files/background1.jpg" width=612 height=792></div>
@@ -649,5 +648,3 @@ div.cls_009{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight
 
 </body>
 </html>
-
-@stop
