@@ -15,8 +15,9 @@
 
 <h3>Machine Learning</h3>
 
-<a href='/KNN'>k-Nearest Neighbors Tutorial in Python</a>
-<br><a href='ridge-regression'>Ridge Regression Tutorial in Python</a>
+<a href='/k-means'>k-means From Scratch in Python</a>
+<br><a href='/KNN'>k-Nearest Neighbors From Scratch in Python</a>
+<br><a href='ridge-regression'>Ridge Regression From Scratch in Python</a>
 
 <h3>Data Science</h3>
 <a href='/post2'>Harvard Ultimate Indoor League Analysis</a>
