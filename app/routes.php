@@ -92,6 +92,14 @@ Route::get('/k-means', function(){
     return View::make('/blog/post19 ');
 });
 
+Route::get('/cs181-competition1', function(){
+    return View::make('/blog/post20');
+});
+
+Route::get('/popular', function(){
+    return View::make('/blog/post21');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
