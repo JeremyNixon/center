@@ -19,6 +19,8 @@ date_default_timezone_set ('america/new_york');
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
+    <meta name="description" content="The hyperanalytic nature of Jeremy Nixon">
+    <meta name="author" content="Jeremy Nixon">
   @show
 </head>
   <div id='header'>

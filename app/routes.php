@@ -85,7 +85,11 @@ Route::get('/introspection', function(){
 });
 
 Route::get('/ideaflow', function(){
-    return View::make('/blog/post18');
+    return View::make('/blog/post18 ');
+});
+
+Route::get('/k-means', function(){
+    return View::make('/blog/post19 ');
 });
 
 Route::get('/reading', function(){
