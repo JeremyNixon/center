@@ -15,12 +15,16 @@
 
 <h3>Machine Learning</h3>
 
-<a href='/k-means'>k-means From Scratch in Python</a>
+<a href='systematized-predictive-modeling'>Systematized Predictive Modeling</a>
+<br><a href='/k-means'>k-means From Scratch in Python</a>
 <br><a href='/KNN'>k-Nearest Neighbors From Scratch in Python</a>
 <br><a href='ridge-regression'>Ridge Regression From Scratch in Python</a>
 
+
 <h3>Data Science</h3>
 <a href='/post2'>Harvard Ultimate Indoor League Analysis</a>
+<br><a href='/popular'>Popular!</a> - How to Predict Music Genre From Raw Signal
+<br><a href='cs181-competition1'>Predicting HOMO-LUMO Gaps in Organic Photovoltaics</a>
 
 <h3>Book Writing</h3>
 

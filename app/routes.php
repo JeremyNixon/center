@@ -100,6 +100,10 @@ Route::get('/popular', function(){
     return View::make('/blog/post21');
 });
 
+Route::get('/systematized-predictive-modeling', function(){
+    return View::make('/blog/post22');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });
