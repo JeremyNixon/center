@@ -104,6 +104,14 @@ Route::get('/systematized-predictive-modeling', function(){
     return View::make('/blog/post22');
 });
 
+Route::get('/timestamp', function(){
+    return View::make('/blog/timestamp');
+});
+
+Route::get('/about-me', function(){
+    return View::make('/blog/about-me');
+});
+
 Route::get('/reading', function(){
     return View::make('blog/reading_list');
 });

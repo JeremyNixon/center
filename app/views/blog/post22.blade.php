@@ -2,7 +2,7 @@
 <br>@extends('/blog/blog-base')
 <br>@section('body')
 <br><h2 class='post_title'>Systematized Predictive Modeling</h2>
-I wanted to compile a curated list of modeling techniques that have been helpful to me in the past. This list is meant to be a brainstorming source and to check that the search for relationships has been exhaustive. 
+I wanted to compile a curated list of modeling techniques that have been helpful to me in the past. This list is meant to be a brainstorming source and to check that the search for techniques to capture relationships in the data has been exhaustive. 
 <br><p>
 <br>Preprocessing
 <br></p></p>
