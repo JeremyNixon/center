@@ -21,7 +21,7 @@ Let's instantiate this equation in python code. lam is our lambda parameter.
 </p>
 <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">import</span> <span style="color: #f8f8f2">numpy</span> <span style="color: #f92672">as</span> <span style="color: #f8f8f2">np</span>
 
-<span style="color: #66d9ef">def</span> <span style="color: #a6e22e">ridge_regression_update</span><span style="color: #f8f8f2">(x_train,</span> <span style="color: #f8f8f2">y_train,</span> <span style="color: #f8f8f2">lam):</span>
+<span style="color: #66d9ef">def</span> <span style="color: #a6e22e">ridge_regression</span><span style="color: #f8f8f2">(x_train,</span> <span style="color: #f8f8f2">y_train,</span> <span style="color: #f8f8f2">lam):</span>
     
     <span style="color: #f8f8f2">X</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">np</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">array(x_train)</span>
     <span style="color: #f8f8f2">ones</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">np</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">ones(len(X))</span>
@@ -34,6 +34,11 @@ Let's instantiate this equation in python code. lam is our lambda parameter.
     <span style="color: #f8f8f2">w</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">np</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">dot(np</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">dot(theInverse,</span> <span style="color: #f8f8f2">Xt),</span> <span style="color: #f8f8f2">y)</span>
     <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">w,</span> <span style="color: #66d9ef">lambda</span> <span style="color: #f8f8f2">x:</span> <span style="color: #f8f8f2">dot(w,x)</span>
 </pre></div>
+
+<br><br>
+1: Resources:<br>
+<a href='http://statweb.stanford.edu/~tibs/ElemStatLearn/'>Elements of Statistical Learning: Hastie, Tibshirani, Friedman<br>
+<a href='http://appliedpredictivemodeling.com/'>Applied Predictive Modeling: Kuhn, Johnson</a><br>
 
 
 

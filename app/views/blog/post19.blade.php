@@ -86,7 +86,7 @@ We'll be using one library for this algorithm: Numpy.
     <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">(set([tuple(a)</span> <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">a</span> <span style="color: #f92672">in</span> <span style="color: #f8f8f2">means])</span> <span style="color: #f92672">==</span> <span style="color: #f8f8f2">set([tuple(a)</span> <span style="color: #66d9ef">for</span> <span style="color: #f8f8f2">a</span> <span style="color: #f92672">in</span> <span style="color: #f8f8f2">oldmeans]))</span>
 </div>
 <p>
-	Our k_means function will initialize the algorithm with random means and iterate until the means converge. See <a href='/k-means++'>k-mean++</a> for a better initialization.
+	Our k_means function will initialize the algorithm with random means and iterate until the means converge. See <a href='/k-means++'>k-means++</a> for a better initialization.
 	We apply the indices from our dataset and return a final list with cluster, index and datapoint.
 </p>
 <div style="background: #272822; overflow:auto;width:auto; border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">

@@ -74,7 +74,7 @@ Next we'll evaluate the distance from a given test datapoint to each of its neig
 
 <p>
     Now that we have our neighbors we should calculate the result for this sample point. We can choose here how we want to decide:
-     this is an implementation of regression using the mean of the datapoints. If you're interested in the code for classificaiton, check [2].
+     this is an implementation for a regression setting using the mean of the datapoints. If you're interested in the code for classificaiton, check [2].
 </p>
 
 <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">def</span> <span style="color: #a6e22e">outcome</span><span style="color: #f8f8f2">(neighbors,</span> <span style="color: #f8f8f2">y_train):</span>
