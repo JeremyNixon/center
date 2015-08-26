@@ -104,6 +104,14 @@ Route::get('/systematized-predictive-modeling', function(){
     return View::make('/blog/post22');
 });
 
+Route::get('/k-means++', function(){
+    return View::make('/blog/k-means++');
+});
+
+Route::get('/linear-regression', function(){
+    return View::make('/blog/linear_regression');
+});
+
 Route::get('/timestamp', function(){
     return View::make('/blog/timestamp');
 });
