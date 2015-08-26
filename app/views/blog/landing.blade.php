@@ -16,10 +16,11 @@
 <h3>Machine Learning</h3>
 
 <a href='systematized-predictive-modeling'>Systematized Predictive Modeling</a>
-<br><a href='/k-means'>k-means From Scratch in Python</a>
-<br><a href='/KNN'>k-Nearest Neighbors From Scratch in Python</a>
-<br><a href='ridge-regression'>Ridge Regression From Scratch in Python</a>
-
+<br><a href='/k-means++'>k-means++ From Scratch in Python
+<br><a href='/k-means'>k-means Tutorial From Scratch in Python</a>
+<br><a href='/KNN'>k-Nearest Neighbors Tutorial From Scratch in Python</a>
+<br><a href='/ridge-regression'>Ridge Regression Tutorial From Scratch in Python (Closed Form Solution)</a>
+<br><a href='/linear-regression'>Linear Regression Tutorial From Scratcy in Python (Closed Form Solution)</a>
 
 <h3>Data Science</h3>
 <a href='/post2'>Harvard Ultimate Indoor League Analysis</a>
