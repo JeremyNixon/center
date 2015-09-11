@@ -24,7 +24,7 @@
 
 <h3>Data Science</h3>
 <a href='/post2'>Harvard Ultimate Indoor League Analysis</a>
-<br><a href='/popular'>Popular!</a> - How to Predict Music Genre From Raw Signal
+<br><a href='http://nbviewer.ipython.org/github/JeremyNixon/CS-109-Final-Project/blob/master/Popular.ipynb'>Popular!</a> - How to Predict Music Genre From Raw Signal
 <br><a href='cs181-competition1'>Predicting HOMO-LUMO Gaps in Organic Photovoltaics</a>
 
 <h3>Book Writing</h3>

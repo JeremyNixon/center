@@ -30,6 +30,10 @@ k-means optimizes an obiective function that comes out of our distance metric. L
 $$ \sum_{i=1}^N\sum_{k=1}^K l_{ik}||x_i - m_k||^2_2 $$
 
 <p>
+This metric 
+</p>
+
+<p>
 Before you apply k-means, make sure to center and scale your predictors. [1] 
 We'll be using one library for this algorithm: Numpy. 
 </p>
