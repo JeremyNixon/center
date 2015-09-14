@@ -23,8 +23,10 @@ I wanted to compile a curated list of modeling techniques that have been helpful
 <li>Correlation Matrix
 </li><li>Box-Chart Everything
 </li><li>Scatter Every Combination of Features
+</li><li>Pivot Tables
+</li><li>Groupby on Important Features
 </li><li>Histogram Everything
-</li><li>Transform Variables and Plot
+</li><li>Transform Variables (Square, Cube, Inverse, Log) and Plot
 </li><li>Summary (Mean, Mode, Minimum, Maximum, Upper/Lower Quartiles, Identify Outliers)
 </ol>
 </p></p>
@@ -59,16 +61,17 @@ I wanted to compile a curated list of modeling techniques that have been helpful
 </li><li>Cubist
 </li><li>Generalized Additive Model</li>
 </ol>
-<br></p></p>
+</p></p>
 <br>Evaluating Regression
 <br></p></p>
 <ol>
 <li>RMSE
 </li><li>MAE
-</li><li>R2
+</li><li>Median
+</li><li>\(R^2\)
 </li><li>Visualization</li>
 </ol>
-<br></p></p>
+</p></p>
 <br>Algorithms for Classification
 <br></p></p>
 <ol>
@@ -91,7 +94,7 @@ I wanted to compile a curated list of modeling techniques that have been helpful
 </li><li>Mixture Models
 </li><li>Generalized Additive Model</li>
 </ol>
-<br></p></p>
+</p></p>
 <br>Evaluating Classification
 <br></p></p>
 <ol>
@@ -104,7 +107,7 @@ I wanted to compile a curated list of modeling techniques that have been helpful
 </li><li>Specificity
 </li><li>AUC
 </ol>
-<br></p></p>
+</p></p>
 <br>Unsupervised Learning
 <br></p></p>
 <ol>
@@ -118,20 +121,16 @@ I wanted to compile a curated list of modeling techniques that have been helpful
 </li><li>Biclustering
 </li><li>Gaussian Mixture Model</li>
 </ol>
-<br></p></p>
+</p></p>
 <br>Parameter Tuning
 <br></p></p>
 <ol>
 </li><li>Cross Validation
 </li><li>Bootstrap
 </li><li>Grid Search
-</li><li></p></p>
-</li><li>Text Features
-</li><li>n-Grams
-</li><li>Word Vector Representations (Word 2 Vec)
-</li><li>Bag of words
+<p>
 </ol>
-<br></p></p>
+</p></p>
 <br>Modeling Techniques
 <br></p></p>
 <ol>
