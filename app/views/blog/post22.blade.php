@@ -62,7 +62,7 @@ I wanted to compile a curated list of modeling techniques that have been helpful
 <br></p></p>
 <br>Evaluating Regression
 <br></p></p>
-</ol>
+<ol>
 <li>RMSE
 </li><li>MAE
 </li><li>R2
