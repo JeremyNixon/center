@@ -10,7 +10,7 @@
     <div class="education-text">
      
 
-The Car Smart pamphlet was developed by the Massachusetts Consumers’ Coalition to provide 
+The Car Smart was developed by the Massachusetts Consumers’ Coalition to provide 
 
 consumers with information and tips about buying a car, what to do if the purchase goes sour, 
 
