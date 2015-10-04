@@ -17,13 +17,13 @@
 
 	<div class="menu">
 		<div class="menu-about">
-			<a href="/mcc/about">About Us<a/>
-		</div>
-		<div class="menu-information">
-			<a href="/mcc/consumer-information">Consumer<br>Information<a/>
+			<a href="/mcc/members">Members<a/>
 		</div>
 		<div class="menu-information">
 			<a href="/mcc/consumer-resources">Consumer<br>Resources<a/>
+		</div>
+		<div class="menu-information">
+			<a href="/mcc/consumer-news">Consumer<br>News<a/>
 		</div>
 		<div class="menu-information">
 			<a href="/mcc/issues-legislation">Issues and<br>Legislation<a/>

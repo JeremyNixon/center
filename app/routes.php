@@ -189,12 +189,12 @@ Route::get('/mcc', function(){
     return View::make('/mcc/home');
 });
 
-Route::get('/mcc/about', function(){
-    return View::make('/mcc/about');
+Route::get('/mcc/members', function(){
+    return View::make('/mcc/members');
 });
 
-Route::get('/mcc/consumer-information', function(){
-    return View::make('/mcc/consumer-information');
+Route::get('/mcc/consumer-news', function(){
+    return View::make('/mcc/consumer-news');
 });
 
 Route::get('/mcc/consumer-resources', function(){
