@@ -9,9 +9,9 @@
 </head>
 <body>
 	<div class="header">
-		<img class="logo" src="{{ URL::asset('/massachusetts.png') }}">
+		<a href="/"><img class="logo" src="{{ URL::asset('/massachusetts.png') }}"></a>
 		<div class="header-title">
-			Massachusetts Consumers Coalition
+			<a href="/">Massachusetts Consumer's Coalition</a>
 		</div>
 	</div>
 

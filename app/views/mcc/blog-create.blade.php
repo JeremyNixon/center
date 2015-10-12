@@ -1,4 +1,4 @@
-<title>Log Scam</title>
+<title>Create Post</title>
 <style>
 	body{
 		margin: 0;
@@ -13,10 +13,10 @@
 	}
 </style>
 <div class="form-container">
-<h1>Add a New Scam</h1>
+<h1>Add a New Post</h1>
 
 
-	{{ Form::open(array('url' => 'mcc/scam-create', 'method' => 'POST')) }}
+	{{ Form::open(array('url' => 'mcc/blog-create', 'method' => 'POST')) }}
 
 
 		<div class='form-title'>
@@ -25,8 +25,8 @@
 		</div><br>
 
 		<div class='form-title'>
-			{{ Form::label('Scam Discription') }}<br>
-			{{ Form::text('type', $value = null, array('required' => 'required')) }}
+			{{ Form::label('Author') }}<br>
+			{{ Form::text('author', $value = null, array('required' => 'required')) }}
 		</div>
 
 		<div class='form-content'>

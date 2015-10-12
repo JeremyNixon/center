@@ -46,6 +46,16 @@ New-Video-to-Warn-Taxpayers.
     </div>
     <div class="blog-text">
       Topical or group-specific information or event or initiative or highlight. Authors can rotate amongst members.
+      <?php
+      $collection = Blog::all();
+
+    # loop through the Collection and access just the data
+    ?> <div id="scam-link"> <?php
+    foreach($collection as $blog) {
+        echo  "<a href=\"/mcc/blog/" . $blog->id . "\">" . $blog->title . "</a>" . "<br>";
+    }
+    ?>
+    <a class="add-scam" href="/mcc/blog-create">Add New Post</a>
   </div>
   </div>
 </div>

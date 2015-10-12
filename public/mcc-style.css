@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	font-family: sans-serif;
+	line-height: 150%
 }
 
 /* Template */
@@ -13,7 +14,7 @@ margin-top: 15px;
 	color: #0000cc;
 	font-size: 28px;
 	float: right;
-	margin-right: 25%;
+	margin-right: 35%;
 	margin-top: 20px;
 }
 
@@ -56,10 +57,13 @@ margin-top: 15px;
 	height: 200px;
 }
 .who-we-are{
-	width: 22%;
+	width: 30%;
 	float: left;
-	margin-top: 30px;
-	margin-left: 20%;
+	margin-top: 3%;
+	margin-left: 15%;
+	padding-right: 5%;
+	border-right: 1px solid gray;
+
 }
 
 .home-title{
@@ -75,10 +79,10 @@ margin-top: 15px;
 }
 
 .our-missions{
-	width: 22%;
-	float: left;
-	margin-top: -128px;
-	margin-left: 55%;
+	width: 30%;
+	float: right;
+	margin-top: 3%;
+	margin-right: 15%;
 }
 
 .our-missions-text{
@@ -87,10 +91,11 @@ margin-top: 15px;
 }
 
 .our-site{
-	width: 28%;
+	width: 40%;
 	float: left;
 	margin-top: 80px;
-	margin-left: 35%;
+	margin-left: 30%;
+	border-top: 1px solid gray;
 }
 
 .our-site-title{
@@ -131,7 +136,7 @@ margin-top: 15px;
 .membership{
 	margin: 0 auto;
 	margin-top: 25px;
-	width: 30%;
+	width: 50%;
 
 }
 
@@ -149,7 +154,7 @@ margin-top: 15px;
 .member-organizations{
 	margin: 0 auto;
 	margin-top: 25px;
-	width: 30%;
+	width: 50%;
 
 }
 
@@ -223,7 +228,7 @@ margin-top: 15px;
 /* Consumer Resources */
 
 .education{
-	width: 20%;
+	width: 25%;
 	float: left;
 	margin-top: 25px;
 	margin-left: 20%;
@@ -270,6 +275,7 @@ margin-top: 15px;
 	width: 20%;
 	float: left;
 	margin-left: 20%;
+	margin-top: 5%;
 }
 
 .agencies-title{

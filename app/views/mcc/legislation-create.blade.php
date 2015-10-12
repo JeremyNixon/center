@@ -1,4 +1,4 @@
-<title>Log Scam</title>
+<title>Add Legislation</title>
 <style>
 	body{
 		margin: 0;
@@ -13,21 +13,16 @@
 	}
 </style>
 <div class="form-container">
-<h1>Add a New Scam</h1>
+<h1>Add new Legislation</h1>
 
 
-	{{ Form::open(array('url' => 'mcc/scam-create', 'method' => 'POST')) }}
+	{{ Form::open(array('url' => 'mcc/legislation-create', 'method' => 'POST')) }}
 
 
 		<div class='form-title'>
 			{{ Form::label('title') }}<br>
 			{{ Form::text('title', $value = null, array('class' => 'title-field', 'required' => 'required')) }}
 		</div><br>
-
-		<div class='form-title'>
-			{{ Form::label('Scam Discription') }}<br>
-			{{ Form::text('type', $value = null, array('required' => 'required')) }}
-		</div>
 
 		<div class='form-content'>
 			<br>

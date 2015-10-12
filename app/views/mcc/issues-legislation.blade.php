@@ -29,7 +29,16 @@
     </div>
     <div class="legislation-text">
       Explanation of legislation pending in the state legislature or Congress and pertinent dates or other information about comment, hearing, etc.
+            <?php
+      $collection = Legislation::all();
 
+    # loop through the Collection and access just the data
+    ?> <div id="scam-link"> <?php
+    foreach($collection as $legislation) {
+        echo  "<a href=\"/mcc/legislation/" . $legislation->id . "\">" . $legislation->title . "</a>" . "<br>";
+    }?>
+    <br>
+    <a class="add-scam" href="/mcc/legislation-create">Add New Legislation</a>
   </div>
   </div>
 </div>

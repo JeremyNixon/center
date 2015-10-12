@@ -32,6 +32,13 @@ class Hammer extends Migration {
 
 		});
 
+	// Schema::create('authors', function($table){
+	// 		$table->increments('id');
+ //            $table->string('title');
+	// 		$table->timestamps();
+
+	// 	});
+
 	}
 
 	/**
@@ -46,7 +53,7 @@ class Hammer extends Migration {
 			$table->dropForeign('essays_issue_id_foreign'); # table_fields_foreign
 		});
 
-		Schema::drop('authors');
+		// Schema::drop('authors');
 		Schema::drop('issues');
 		Schema::drop('essays');
 	}

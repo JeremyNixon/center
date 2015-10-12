@@ -205,6 +205,7 @@ Route::get('/mcc/issues-legislation', function(){
     return View::make('/mcc/issues-legislation');
 });
 
+
 Route::get('/mcc/scam-create', function(){
     return View::make('mcc/scam-create');
 });
@@ -216,6 +217,68 @@ Route::get('/mcc/scam-created', function(){
 });
 
 Route::get('/mcc/scam/{id}', 'ScamController@postRead');
+
+
+Route::get('/mcc/legislation-create', function(){
+    return View::make('mcc/legislation-create');
+});
+
+Route::post('/mcc/legislation-create', 'LegislationController@postCreate');
+
+Route::get('/mcc/legislation-created', function(){
+    return View::make('mcc/legislation-created');
+});
+
+Route::get('/mcc/legislation/{id}', 'LegislationController@postRead');
+
+
+Route::get('/mcc/blog-create', function(){
+    return View::make('mcc/blog-create');
+});
+
+Route::post('/mcc/blog-create', 'BlogController@postCreate');
+
+Route::get('/mcc/blog-created', function(){
+    return View::make('mcc/blog-created');
+});
+
+Route::get('/mcc/blog/{id}', 'BlogController@postRead');
+
+
+Route::get('/mcc/member-create', function(){
+    return View::make('mcc/member-create');
+});
+
+Route::post('/mcc/member-create', 'MemberController@postCreate');
+
+Route::get('/mcc/member-created', function(){
+    return View::make('mcc/member-created');
+});
+
+Route::get('/mcc/officer-create', function(){
+    return View::make('mcc/officer-create');
+});
+
+Route::post('/mcc/officer-create', 'OfficerController@postCreate');
+
+Route::get('/mcc/officer-created', function(){
+    return View::make('mcc/officer-created');
+});
+
+
+Route::get('/mcc/meeting-create', function(){
+    return View::make('mcc/meeting-create');
+});
+
+Route::post('/mcc/meeting-create', 'MeetingController@postCreate');
+
+Route::get('/mcc/meeting-created', function(){
+    return View::make('mcc/meeting-created');
+});
+
+Route::get('/mcc/meeting/{id}', 'MeetingController@postRead');
+
+
 
 Route::get('/mcc/issue-create', function(){
     return View::make('mcc/issue-create');
