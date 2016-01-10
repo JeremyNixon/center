@@ -17,7 +17,7 @@ Route::get('/', function(){
 });
 
 Route::get('/blog', function(){
-    return View::make('/blog/home');
+    return View::make('/blog/landing');
 });
 
 Route::get('/post1', function(){
