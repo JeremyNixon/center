@@ -102,12 +102,12 @@ class Mcc extends Migration {
 	public function down()
 	{
 		//
-		// Schema::drop('secretaries');
-		// Schema::drop('agencies');
-		// Schema::drop('officers');
-		// Schema::drop('members');
-		// Schema::drop('blogs');
-		// Schema::drop('meetings');
+		Schema::drop('secretaries');
+		Schema::drop('agencies');
+		Schema::drop('officers');
+		Schema::drop('members');
+		Schema::drop('blogs');
+		Schema::drop('meetings');
 		Schema::drop('legislations');
 		Schema::drop('problems');
 		Schema::drop('scams');
