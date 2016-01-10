@@ -70,6 +70,27 @@ class Mcc extends Migration {
 			$table->timestamps();
 
 		});
+
+
+		Schema::create('agencies', function($table){
+			$table->increments('id');
+            $table->string('name');
+            $table->string('link');
+			$table->timestamps();
+
+		});
+
+		Schema::create('secretaries', function($table){
+		$table->increments('id');
+        $table->string('name');
+        $table->string('address');
+        $table->string('phone');
+        $table->string('fax');
+		$table->timestamps();
+
+		});
+
+
 	}
 
 
@@ -81,11 +102,13 @@ class Mcc extends Migration {
 	public function down()
 	{
 		//
-		Schema::drop('officers');
-		Schema::drop('members');
-		Schema::drop('blogs');
-		Schema::drop('meetings');
-		Schema::drop('legislation');
+		// Schema::drop('secretaries');
+		// Schema::drop('agencies');
+		// Schema::drop('officers');
+		// Schema::drop('members');
+		// Schema::drop('blogs');
+		// Schema::drop('meetings');
+		Schema::drop('legislations');
 		Schema::drop('problems');
 		Schema::drop('scams');
 		

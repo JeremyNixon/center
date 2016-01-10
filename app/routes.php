@@ -255,6 +255,28 @@ Route::get('/mcc/member-created', function(){
     return View::make('mcc/member-created');
 });
 
+
+Route::get('/mcc/agency-create', function(){
+    return View::make('mcc/agency-create');
+});
+
+Route::post('/mcc/agency-create', 'AgencyController@postCreate');
+
+Route::get('/mcc/agency-created', function(){
+    return View::make('mcc/agency-created');
+});
+
+Route::get('/mcc/secretary-create', function(){
+    return View::make('mcc/secretary-create');
+});
+
+Route::post('/mcc/secretary-create', 'SecretaryController@postCreate');
+
+Route::get('/mcc/secretary-created', function(){
+    return View::make('mcc/secretary-created');
+});
+
+
 Route::get('/mcc/officer-create', function(){
     return View::make('mcc/officer-create');
 });
@@ -291,6 +313,77 @@ Route::get('/mcc/issue-created', function(){
 });
 
 Route::get('/mcc/issue/{id}', 'ProblemController@postRead');
+
+Route::get('/mcc/signup',array('before' => 'guest', function() {
+            return View::make('mcc/signup');
+        }
+    )
+);
+
+Route::post('/mcc/signup', 
+    array(
+        'before' => 'csrf', 
+        function() {
+
+            $user = new User;
+            $user->email    = Input::get('email');
+            $user->password = Hash::make(Input::get('password'));
+
+            # Try to add the user 
+            try {
+                $user->save();
+            }
+            # Fail
+            catch (Exception $e) {
+                return Redirect::to('/mcc/signup')->withInput();
+            }
+
+            # Log the user in
+            Auth::login($user);
+
+            return Redirect::to('/mcc');
+
+        }
+    )
+);
+
+Route::get('/mcc/login',
+    array(
+        'before' => 'guest',
+        function() {
+            return View::make('mcc/login');
+        }
+    )
+);
+
+Route::post('/mcc/login', 
+    array(
+        'before' => 'csrf', 
+        function() {
+
+            $credentials = Input::only('email', 'password');
+
+            if (Auth::attempt($credentials, $remember = true)) {
+                return Redirect::intended('/mcc')->with('flash_message', 'Welcome Back!');
+            }
+            else {
+                return Redirect::to('/mcc/login')->with('flash_message', 'Log in failed; please try again.');
+            }
+
+            return Redirect::to('mcc/login');
+        }
+    )
+);
+
+Route::get('/mcc/logout', function() {
+
+    # Log out
+    Auth::logout();
+
+    # Send them to the homepage
+    return Redirect::to('/mcc');
+
+});
 
 # The Quiz ****************************************************************
 

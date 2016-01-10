@@ -1,8 +1,13 @@
 body{
 	margin: 0;
 	font-family: sans-serif;
-	line-height: 150%
+	line-height: 150%;
+	padding-bottom: 0px;
 }
+
+div{
+/*	border: 1px solid red;
+*/}
 
 /* Template */
 
@@ -13,9 +18,29 @@ margin-top: 15px;
 .header-title{
 	color: #0000cc;
 	font-size: 28px;
+	margin: 0 auto;
+	margin-top: -30px;
+	position: relative;
+	width: 30%;
+}
+
+.authentication{
 	float: right;
-	margin-right: 35%;
-	margin-top: 20px;
+	margin-right: 5%;
+	font-size: 12px;
+}
+
+.footer{
+	background-color: #0000cc;
+	height: 60px;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+}
+
+.wrapper{
+	min-height: 100%;
+	position: relative;
 }
 
 .logo{
@@ -26,10 +51,17 @@ margin-top: 15px;
 
 .menu{
 	text-align: center;
-	margin-top: 20px;
-	padding-left: 15%;
-	font-size: 20px;
+	margin: 0 auto;
+	padding-top: 20px;
+/*	padding-left: 15%;
+*/	font-size: 20px;
 	height: 66px;
+}
+
+.for_centering{
+	margin: 0 auto;
+	width: 50%;
+	position: relative;
 }
 
 .menu-about{
@@ -111,14 +143,14 @@ margin-top: 15px;
 /* About Page */
 
 .about-container{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .history{
-	margin: 0 auto;
-	margin-top: 50px;
 	width: 50%;
+	text-align: left;
+	float: right;
 }
 
 .history-title{
@@ -126,18 +158,29 @@ margin-top: 15px;
 	text-decoration: underline;
 	font-size: 20px;
 	padding: 10px;
-	text-align: center;
 }
 
 .history-text{
 	font-size: 17px;
 }
 
+.rhs{
+	float: right;
+	width: 49%;
+	margin-top: 50px;
+/*	margin-top: -36%;
+*/}
+.lhs{
+	float: left;
+	width: 49%;
+	margin-top: 50px;
+
+}
+
 .membership{
 	margin: 0 auto;
-	margin-top: 25px;
-	width: 50%;
-
+/*	width: 50%;
+*/
 }
 
 .membership-title{
@@ -152,9 +195,8 @@ margin-top: 15px;
 }
 
 .member-organizations{
-	margin: 0 auto;
 	margin-top: 25px;
-	width: 50%;
+	float: right;
 
 }
 
@@ -287,6 +329,14 @@ margin-top: 15px;
 
 .agencies-text{
 	font-size: 17px;
+}
+
+.credit-report{
+	width: 25%;
+	float: left;
+	margin-top: -19%;
+	margin-left: 20%;
+
 }
 
 /* Scam */

@@ -18,7 +18,9 @@
     }
     ?>
     <br>
-    <a class="add-issue" href="/mcc/issue-create">Add New Issue</a>
+    @if(Auth::check())
+        <a class="add-issue" href="/mcc/issue-create">Add New Issue</a>
+    @endif
     </div>
   </div>
 </div>
@@ -28,7 +30,6 @@
       Pending Legislation
     </div>
     <div class="legislation-text">
-      Explanation of legislation pending in the state legislature or Congress and pertinent dates or other information about comment, hearing, etc.
             <?php
       $collection = Legislation::all();
 
@@ -38,7 +39,9 @@
         echo  "<a href=\"/mcc/legislation/" . $legislation->id . "\">" . $legislation->title . "</a>" . "<br>";
     }?>
     <br>
-    <a class="add-scam" href="/mcc/legislation-create">Add New Legislation</a>
+    @if(Auth::check())
+        <a class="add-scam" href="/mcc/legislation-create">Add New Legislation</a>
+    @endif
   </div>
   </div>
 </div>
