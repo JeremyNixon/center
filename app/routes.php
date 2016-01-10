@@ -16,6 +16,10 @@ Route::get('/', function(){
     return View::make('/mcc/home');
 });
 
+Route::get('/blog', function(){
+    return View::make('/blog/home');
+});
+
 Route::get('/post1', function(){
     return View::make('/blog/post1');
 });
