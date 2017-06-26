@@ -37,7 +37,7 @@ date_default_timezone_set ('america/new_york');
 
 @yield('body')
 
-<div id="bottom_space"></div>
+<div id="bottom_space"><br></div>
 </div>
 </body>
 <script>
