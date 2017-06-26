@@ -13,7 +13,7 @@
 # Blog ###############################################################
 
 Route::get('/', function(){
-    return View::make('/mcc/home');
+    return View::make('/blog/landing');
 });
 
 Route::get('/blog', function(){
