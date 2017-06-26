@@ -77,7 +77,11 @@ Route::get('/greatness', function(){
 });
 
 Route::get('/ridge-regression', function(){
-    return View::make('/blog/post15');
+    return View::make('/blog/ridge-regression');
+});
+
+Route::get('/logistic-regression', function(){
+    return View::make('/blog/logistic-regression');
 });
 
 Route::get('/social-exploration', function(){
@@ -210,6 +214,8 @@ Route::get('/mcc/issues-legislation', function(){
 });
 
 
+
+
 Route::get('/mcc/scam-create', function(){
     return View::make('mcc/scam-create');
 });
@@ -221,6 +227,9 @@ Route::get('/mcc/scam-created', function(){
 });
 
 Route::get('/mcc/scam/{id}', 'ScamController@postRead');
+
+Route::get('/mcc/scam-delete/{id}', 'ScamController@getDelete');
+
 
 
 Route::get('/mcc/legislation-create', function(){
@@ -235,6 +244,9 @@ Route::get('/mcc/legislation-created', function(){
 
 Route::get('/mcc/legislation/{id}', 'LegislationController@postRead');
 
+Route::get('/mcc/legislation-delete/{id}', 'LegislationController@getDelete');
+
+
 
 Route::get('/mcc/blog-create', function(){
     return View::make('mcc/blog-create');
@@ -248,6 +260,9 @@ Route::get('/mcc/blog-created', function(){
 
 Route::get('/mcc/blog/{id}', 'BlogController@postRead');
 
+Route::get('/mcc/blog-delete/{id}', 'BlogController@getDelete');
+
+
 
 Route::get('/mcc/member-create', function(){
     return View::make('mcc/member-create');
@@ -258,6 +273,9 @@ Route::post('/mcc/member-create', 'MemberController@postCreate');
 Route::get('/mcc/member-created', function(){
     return View::make('mcc/member-created');
 });
+
+Route::get('/mcc/member-delete/{id}', 'MemberController@getDelete');
+
 
 
 Route::get('/mcc/agency-create', function(){
@@ -270,6 +288,32 @@ Route::get('/mcc/agency-created', function(){
     return View::make('mcc/agency-created');
 });
 
+
+Route::get('/mcc/agency-delete/{id}', 'AgencyController@getDelete');
+
+// Route::get('/mcc/agency-delete/{id}', function() {
+
+//     # First get a book to delete
+//     return $id;
+
+//     $a = Agency::where('name', 'LIKE', '%id%')->first();
+
+//     # If we found the book, delete it
+//     if($a) {
+
+//         # Goodbye!
+//         $a->delete();
+
+//         return "Deletion complete; check the database to see if it worked...";
+
+//     }
+//     else {
+//         return "Can't delete - Book not found.";
+//     }
+
+// });
+
+
 Route::get('/mcc/secretary-create', function(){
     return View::make('mcc/secretary-create');
 });
@@ -279,6 +323,9 @@ Route::post('/mcc/secretary-create', 'SecretaryController@postCreate');
 Route::get('/mcc/secretary-created', function(){
     return View::make('mcc/secretary-created');
 });
+
+Route::get('/mcc/secretary-delete/{id}', 'SecretaryController@getDelete');
+
 
 
 Route::get('/mcc/officer-create', function(){
@@ -290,6 +337,9 @@ Route::post('/mcc/officer-create', 'OfficerController@postCreate');
 Route::get('/mcc/officer-created', function(){
     return View::make('mcc/officer-created');
 });
+
+Route::get('/mcc/officer-delete/{id}', 'OfficerController@getDelete');
+
 
 
 Route::get('/mcc/meeting-create', function(){
@@ -304,6 +354,8 @@ Route::get('/mcc/meeting-created', function(){
 
 Route::get('/mcc/meeting/{id}', 'MeetingController@postRead');
 
+Route::get('/mcc/meeting-delete/{id}', 'MeetingController@getDelete');
+
 
 
 Route::get('/mcc/issue-create', function(){
@@ -317,6 +369,10 @@ Route::get('/mcc/issue-created', function(){
 });
 
 Route::get('/mcc/issue/{id}', 'ProblemController@postRead');
+
+Route::get('/mcc/issue-delete/{id}', 'ProblemController@getDelete');
+
+
 
 Route::get('/mcc/signup',array('before' => 'guest', function() {
             return View::make('mcc/signup');
