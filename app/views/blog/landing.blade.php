@@ -20,21 +20,21 @@
 <br><a href='/k-means'>k-means Tutorial From Scratch in Python</a>
 <br><a href='/KNN'>k-Nearest Neighbors Tutorial From Scratch in Python</a>
 <br><a href='/ridge-regression'>Ridge Regression Tutorial From Scratch in Python (Closed Form Solution)</a>
-<br><a href='/linear-regression'>Linear Regression Tutorial From Scratcy in Python (Closed Form Solution)</a>
+<br><a href='/linear-regression'>Linear Regression Tutorial From Scratch in Python (Closed Form Solution)</a>
 
-<h3>Data Science</h3>
-<a href='/post2'>Harvard Ultimate Indoor League Analysis</a>
-<br><a href='http://nbviewer.ipython.org/github/JeremyNixon/CS-109-Final-Project/blob/master/Popular.ipynb'>Popular!</a> - How to Predict Music Genre From Raw Signal
+<!-- <h3>Data Science</h3> -->
+<!-- <a href='/post2'>Harvard Ultimate Indoor League Analysis</a> -->
+<!-- <br><a href='http://nbviewer.ipython.org/github/JeremyNixon/CS-109-Final-Project/blob/master/Popular.ipynb'>Popular!</a> - How to Predict Music Genre From Raw Signal -->
 <!-- <br><a href='cs181-competition1'>Predicting HOMO-LUMO Gaps in Organic Photovoltaics</a> -->
 
-<h3>Book Writing</h3>
+<!-- <h3>Book Writing</h3> -->
 
-<a href='/antifragile'>Antifragile</a> - Nicholas Nassim Taleb
-<br><a href='/decisive'>Decisive</a> - Chip and Dan Heath
-<br><a href='/elon-musk'> Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a> - Ashlee Vance
+<!-- <a href='/antifragile'>Antifragile</a> - Nicholas Nassim Taleb -->
+<!-- <br><a href='/decisive'>Decisive</a> - Chip and Dan Heath -->
+<!-- <br><a href='/elon-musk'> Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a> - Ashlee Vance -->
 <!-- <br><a href="/reading/poor-charlies-almanac">Poor Charlie's Almanac</a> - Charles Munger -->
-<br><br>
-<a href='/reading'>Reading List</a>
+<!-- <br><br> -->
+<!-- <a href='/reading'>Reading List</a> -->
 <!-- 
 Welcome to Hyperanalytic! This is a blog about thinking. <br> Often with statistics and machine learning, but just as often with psychology and economics. Enjoy!
  -->
