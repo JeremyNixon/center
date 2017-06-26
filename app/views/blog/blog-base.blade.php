@@ -34,8 +34,10 @@ date_default_timezone_set ('america/new_york');
 <div id="container">
 
 <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
 @yield('body')
 
+<div id="bottom_space"></div>
 </div>
 </body>
 <script>
