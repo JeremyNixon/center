@@ -13,7 +13,7 @@
 <br><a href='/algorithmic-thinking'>Algorithmic Thinking</a> - On being systematic.
 <br><a href="/growth-as-a-way-of-life">Growth as a Way of Life</a> - Overcoming the trap of reference dependence.
 
-<h3>Machine Learning</h3>
+<!-- <h3>Machine Learning</h3>
 
 <a href='systematized-predictive-modeling'>Systematized Predictive Modeling</a>
 <br><a href='/k-means++'>k-means++ From Scratch in Python
@@ -21,7 +21,8 @@
 <br><a href='/KNN'>k-Nearest Neighbors Tutorial From Scratch in Python</a>
 <br><a href='/ridge-regression'>Ridge Regression Tutorial From Scratch in Python (Closed Form Solution)</a>
 <br><a href='/linear-regression'>Linear Regression Tutorial From Scratch in Python (Closed Form Solution)</a>
-
+ -->
+ 
 <!-- <h3>Data Science</h3> -->
 <!-- <a href='/post2'>Harvard Ultimate Indoor League Analysis</a> -->
 <!-- <br><a href='http://nbviewer.ipython.org/github/JeremyNixon/CS-109-Final-Project/blob/master/Popular.ipynb'>Popular!</a> - How to Predict Music Genre From Raw Signal -->
